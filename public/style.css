@@ -1,0 +1,70 @@
+/* Custom styles to complement Tailwind CSS */
+:root {
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch active feedback for mobile buttons */
+.touch-btn:active {
+  transform: scale(0.97);
+  transition: transform 0.08s ease-in-out;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Stamping badge pulse effect */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 0.4; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.live-pulse {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+
+/* Print Styles for A4 dispatch sheet */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print, header, nav, #quickStampBar, #filterSection, #statsCards, .btn-action {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 10pt !important;
+  }
+  th, td {
+    border: 1px solid #999 !important;
+    padding: 6px !important;
+    color: #000 !important;
+  }
+  th {
+    background-color: #eee !important;
+  }
+}

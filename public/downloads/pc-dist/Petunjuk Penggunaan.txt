@@ -1,0 +1,17 @@
+PANDUAN MEMBUKA DI KOMPUTER / PC LAIN
+======================================
+
+Aplikasi ini berpusat di server komputer logistik.
+Untuk membuka di PC lain:
+
+CARA 1: Buka Lewat Browser (Chrome / Edge)
+Ketik atau buka alamat ini di browser PC mana saja:
+https://trans-soldier-new-lamp.trycloudflare.com
+
+Setelah terbuka di Chrome/Edge, Anda bisa klik tombol 'Install' / ikon komputer di pojok kanan atas bilah alamat untuk menjadikannya aplikasi desktop di PC tersebut!
+
+CARA 2: Klik Ganda File Bat
+Klik file 'Jalankan Shipping Information.bat'. 
+Aplikasi akan langsung terbuka di jendela mandiri tanpa tab browser.
+
+Dibuat oleh: Hidayat Nurwahid

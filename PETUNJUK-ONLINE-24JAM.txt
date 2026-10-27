@@ -1,0 +1,22 @@
+PANDUAN MEMASANG APLIKASI SHIPPING INFORMATION KE CLOUD (ONLINE 24 JAM NONSTOP)
+================================================================================
+
+Dengan memasang ke Cloud (Gratis):
+1. Alamat web untuk HP & PC rekan kerja akan 100% TETAP / PERMANEN SELAMANYA.
+2. Web akan TETAP BISA DIBUKA DI HP KAPAN SAJA, MESKIPUN PC KANTOR INI MATI / SHUTDOWN!
+
+CARA TERMURAH & TERMUDAH (Via Render.com - 100% Gratis):
+---------------------------------------------------------
+1. Buat akun gratis di: https://render.com (Bisa langsung klik 'Sign in with Google').
+2. Jika Anda punya akun GitHub:
+   - Buat Repository baru di GitHub (misal: 'shipping-info').
+   - Upload file-file di dalam folder ini ke repository tersebut.
+   - Di Render.com, klik 'New +' -> pilih 'Web Service'.
+   - Sambungkan ke repository GitHub Anda tadi.
+   - Klik 'Create Web Service'.
+3. Selesai! Dalam 1-2 menit, Anda akan mendapatkan alamat link permanen seperti:
+   https://shipping-information.onrender.com
+
+Link ini bisa dibagikan ke seluruh rekan kerja, disimpan di bookmark HP, dan tidak akan pernah berubah lagi!
+
+Dibuat untuk: Hidayat Nurwahid
